@@ -9,6 +9,7 @@ PACKAGE_INSTALL = " \
     ${MACHINE_ESSENTIAL_EXTRA_RDEPENDS} \
     ${ROOTFS_BOOTSTRAP_INSTALL} \
 "
+# initramfs-module-debug
 
 # Do not pollute the initrd image with rootfs features
 IMAGE_FEATURES = ""
