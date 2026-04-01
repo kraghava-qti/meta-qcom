@@ -97,18 +97,34 @@ FIT_DTB_COMPATIBLE[sa8775p-ride] = " \
     qcom,sa8775p-qam \
     qcom,sa8775pv2-qam \
 "
+FIT_DTB_COMPATIBLE[sa8775p-ride+lemans-el2] = " \
+    qcom,sa8775p-qam-el2kvm \
+    qcom,sa8775p-socv2.0-qam-el2kvm \
+"
 FIT_DTB_COMPATIBLE[sa8775p-ride+sa8775p-ride-camx] = " \
     qcom,sa8775p-qam-camx \
     qcom,sa8775pv2-qam-camx \
+"
+FIT_DTB_COMPATIBLE[sa8775p-ride+sa8775p-ride-camx+lemans-el2] = " \
+    qcom,sa8775p-qam-camx-el2kvm \
+    qcom,sa8775p-socv2.0-qam-camx-el2kvm \
 "
 FIT_DTB_COMPATIBLE[sa8775p-ride-camx] = "qcom,sa8775p-qam-camx"
 FIT_DTB_COMPATIBLE[sa8775p-ride-r3] = " \
     qcom,sa8775p-qamr2 \
     qcom,sa8775pv2-qamr2 \
 "
+FIT_DTB_COMPATIBLE[sa8775p-ride-r3+lemans-el2] = " \
+    qcom,sa8775p-qam-r2.0-el2kvm \
+    qcom,sa8775p-socv2.0-qam-r2.0-el2kvm \
+"
 FIT_DTB_COMPATIBLE[sa8775p-ride-r3+sa8775p-ride-camx] = " \
     qcom,sa8775p-qamr2-camx \
     qcom,sa8775pv2-qamr2-camx \
+"
+FIT_DTB_COMPATIBLE[sa8775p-ride-r3+sa8775p-ride-camx+lemans-el2] = " \
+    qcom,sa8775p-qam-r2.0-camx-el2kvm \
+    qcom,sa8775p-socv2.0-qam-r2.0-camx-el2kvm \
 "
 FIT_DTB_COMPATIBLE[sdm845-db845c] = "qcom,sdm845"
 FIT_DTB_COMPATIBLE[sm8450-hdk] = "qcom,sm8450-hdk"
