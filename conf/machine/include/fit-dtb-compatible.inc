@@ -32,8 +32,10 @@ FIT_DTB_COMPATIBLE[lemans-evk+lemans-evk-ifp-mezzanine] = " \
     qcom,qcs9075-iot-subtype1 \
     qcom,qcs9075v2-iot-subtype1 \
 "
+FIT_DTB_COMPATIBLE[monaco-evk+monaco-el2] = "qcom,qcs8275-iot-el2kvm"
 FIT_DTB_COMPATIBLE[monaco-evk+monaco-evk-camera-imx577] = "qcom,qcs8275-iot"
 FIT_DTB_COMPATIBLE[monaco-evk+monaco-evk-camx] = "qcom,qcs8275-iot-camx"
+FIT_DTB_COMPATIBLE[monaco-evk+monaco-evk-camx+monaco-el2] = "qcom,qcs8275-iot-camx-el2kvm"
 FIT_DTB_COMPATIBLE[monaco-evk+monaco-evk-ifp-mezzanine] = "qcom,qcs8275-iot-subtype3"
 FIT_DTB_COMPATIBLE[qcm6490-idp] = "qcom,qcm6490-idp"
 FIT_DTB_COMPATIBLE[qcom-apq8064-asus-nexus7-flo] = "qcom,apq8064"
