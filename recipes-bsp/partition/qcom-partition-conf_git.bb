@@ -3,8 +3,8 @@ DESCRIPTION = "GPT partition binaries and QDL scripts for Qualcomm reference dev
 LICENSE = "BSD-3-Clause"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=b0a8acd90d872086b279ead88af03369"
 
-SRC_URI = "git://github.com/qualcomm-linux/qcom-ptool.git;branch=main;protocol=https"
-SRCREV = "386018c76d9b4f63141ad33905506e231cdc6f38"
+SRC_URI = "git://github.com/kraghava-qti/qcom-ptool.git;branch=shikra;protocol=https"
+SRCREV = "57745c0a0c2a5785bf6e22cf9b2b30d161be356e"
 
 INHIBIT_DEFAULT_DEPS = "1"
 
